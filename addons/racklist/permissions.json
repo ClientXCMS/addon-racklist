@@ -1,0 +1,7 @@
+[
+    {
+        "name": "admin.racklist.manage",
+        "label": "racklist::permissions.manage",
+        "group": "permissions.store"
+    }
+]

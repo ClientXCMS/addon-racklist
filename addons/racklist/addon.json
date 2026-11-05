@@ -1,0 +1,13 @@
+{
+    "name": "RackList",
+    "description": "Sync your ClientXCMS catalogue (groups, products, prices and specs) with the RackList hosting directory.",
+    "uuid": "racklist",
+    "version": "2.0.0",
+    "author": {
+        "name": "ClientXCMS",
+        "email": "contact@clientxcms.com"
+    },
+    "providers": [
+        "App\\Addons\\RackList\\RackListServiceProvider"
+    ]
+}

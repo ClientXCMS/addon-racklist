@@ -1,0 +1,17 @@
+{
+    "name": "clientxcms/racklist",
+    "description": "Sync your ClientXCMS catalogue with the RackList hosting directory.",
+    "type": "clientxcms-addon",
+    "require": {
+        "php": ">=8.2"
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "platform-check": false
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\Addons\\RackList\\": "src/"
+        }
+    }   
+}
